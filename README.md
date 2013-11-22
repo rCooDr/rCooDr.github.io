@@ -11,4 +11,4 @@ A presence
       http://jax-ml-45.appspot.com/d/cm1.html
 753.  The codemirror repository and its [issues][cmissues]
 
-[cmissues]:(https://github.com/marijnh/CodeMirror/issues/60)
+[cmissues]: https://github.com/marijnh/CodeMirror/issues/60
