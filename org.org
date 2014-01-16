@@ -1,0 +1,49 @@
+* COMMENT  About Re-review -*- mode: org; -*-
+#+TITLE:     org.org
+#+AUTHOR:    Gunter Liszewski (bs)
+#+EMAIL:     glisze@linkenshell.org
+#+DATE:      2014-01-15 Wed
+#+DESCRIPTION: Org-mode re-visit, and literate, all, in an evening
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+* RE-re-view and Literate Org-organisating
+** Code Blocks
+This is on the object of literacy and, and having normal
+conversations with non-human entities; maybe machines, or bots.
+
+*** Here is one from the org-mode guide
+
+#+srcname abcd.el
+#+BEGIN_SRC emacs-lisp -n
+  (+ 1 2 3)
+#+END_SRC
+
+Now check out the [[http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code][Org-Mode Documentation]].
+
+** Tangling
+
+** Weaving
+
+** Templates
+
+#+BEGIN_EXAMPLE -n
+C-c '   mode switch to work with sample
+C-c C-v e  evaluate, execute
+< s TAB    insert a template to make a script block
+#+END_EXAMPLE
+
+* Here is one example to use the MathJax
+
+
+\[
+\begin{equation}
+x=\sqrt{q^2+3y}
+\end{equation}
+\]
