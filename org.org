@@ -6,7 +6,7 @@
 #+DESCRIPTION: Org-mode re-visit, and literate, all, in an evening
 #+KEYWORDS:  Literate, Coding, ECMAscript, Emacs, Lisp
 #+LANGUAGE:  en
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   H:3 num:nil toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:/j/org-info.js
 #+EXPORT_SELECT_TAGS: export
@@ -15,6 +15,9 @@
 #+LINK_HOME: http://rCooDr.github.io
 #+DRAWERS:   KEYSEQUENCES
 * RE-re-view and Literate Org-organisating
+
+[[http://orgmode.org/]]
+
 ** Code Blocks
 
 This is about literate coding. About addressing the machine, as well
