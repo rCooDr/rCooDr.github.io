@@ -58,9 +58,9 @@ is a basis to use for building and extending objects.
 C-c C-x d  org-mode-insert-drawer
 #+END_SRC
 
-:KEYSEQENCES:
+    :KEYSEQUENCES:
 C-c C-x d  org-mode-insert-drawer
-:END:
+    :END:
 
 * Org Mode Concepts related with Coding
 
