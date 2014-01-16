@@ -1,6 +1,6 @@
 * COMMENT  About Re-review -*- mode: org; -*-
-#+TITLE:     org.org
-#+AUTHOR:    Gunter Liszewski (bs)
+#+TITLE:     Org Mode and Coding
+#+AUTHOR:    Gunter Liszewski
 #+EMAIL:     glisze@linkenshell.org
 #+DATE:      2014-01-16 Thursday
 #+DESCRIPTION: Org-mode re-visit, and literate, all, in an evening
@@ -63,7 +63,7 @@ C-c C-x d  org-mode-insert-drawer
 C-c C-x d  org-mode-insert-drawer
     :END:
 
-** Shell Examples
+** Shell Example
 
 #+BEGIN_SRC sh -n
   git status
