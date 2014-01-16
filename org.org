@@ -45,14 +45,24 @@ is a basis to use for building and extending objects.
 	};
 #+END_SRC
 
-*** Here is one from the org-mode guide
-
+** Emacs Lisp mode Source example
+*** Lisp Example
 #+srcname abcd.el
 #+BEGIN_SRC emacs-lisp -n
   (+ 1 2 3)
 #+END_SRC
 
-Now check out the [[http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code][Org-Mode Documentation]].
+*** Org Mode Drawers
+
+#+BEGIN_SRC emacs-lisp
+C-c C-x d  org-mode-insert-drawer
+#+END_SRC
+
+:KEYSEQENCES:
+C-c C-x d  org-mode-insert-drawer
+:END:
+
+* Org Mode Concepts related with Coding
 
 ** Tangling
 
