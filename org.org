@@ -15,8 +15,35 @@
 #+LINK_HOME: 
 * RE-re-view and Literate Org-organisating
 ** Code Blocks
-This is on the object of literacy and, and having normal
-conversations with non-human entities; maybe machines, or bots.
+
+This is about literate coding. About addressing the machine, as well
+as the human. Text is 'tangled' to address the machine. Addressing the
+human reader's understanding can be eased by 'weaving' the text.
+
+*** An ECMAscript Example
+
+An coding style sometimes seen uses an anonymous function to enclose
+the code. This reduces the amount of name contamination of the global,
+or pre-existing context.
+
+Object and Functions in ECMAscript are used synonymously. A function object
+is a basis to use for building and extending objects.
+
+#+BEGIN_SRC js +n
+  // A namespace enclosure
+  var w = (function () {
+      var w = function () {};
+      return w;
+  })()
+#+END_SRC
+*** Object Principles: resuse, and extend
+
+#+BEGIN_SRC js +n
+    w.extend = function (O, extension) {
+	for (var p in extension)
+	    O[p] = extension[p];
+	};
+#+END_SRC
 
 *** Here is one from the org-mode guide
 
