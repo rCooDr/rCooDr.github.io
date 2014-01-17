@@ -2,7 +2,7 @@
 #+TITLE:     Org Mode and Coding
 #+AUTHOR:    Gunter Liszewski
 #+EMAIL:     glisze@linkenshell.org
-#+DATE:      2014-01-16 Thursday
+#+DATE:      2014-01-17 Friday
 #+DESCRIPTION: Org-mode re-visit, and literate, all, in an evening
 #+KEYWORDS:  Literate, Coding, ECMAscript, Emacs, Lisp
 #+LANGUAGE:  en
