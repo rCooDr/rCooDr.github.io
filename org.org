@@ -2,13 +2,13 @@
 #+TITLE:     Org Mode and Coding
 #+AUTHOR:    Gunter Liszewski
 #+EMAIL:     glisze@linkenshell.org
-#+DATE:      2014-01-17 Friday
+#+DATE:      2014-01-20 Monday
 #+DESCRIPTION: Org-mode re-visit, and literate, all, in an evening
 #+KEYWORDS:  Literate, Coding, ECMAscript, Emacs, Lisp
 #+LANGUAGE:  en
 #+OPTIONS:   H:3 num:nil toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
-#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:/j/org-info.js
+#+INFOJS_OPT: view:overview toc:t ltoc:t mouse:underline buttons:0 path:/j/org-info.js
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+LINK_UP:   http://purl.org/Gunter.Liszewski/dev/
@@ -75,9 +75,39 @@ C-c C-x d  org-mode-insert-drawer
 
 ** Tangling
 
+*** An Example of the Go Language
+
+Writing a Go language program.
+
+#+BEGIN_SRC Go +n :tangle src/go/example1.go
+// This go languge example illustrates some conventions.
+// Comments are placed before the line of interest.
+// The first line starts with the name that is documented here.
+// The first line is a complete sentence. It has to be able to stand on its own.
+package main
+
+// import lists the packages that are used within.
+import   "fmt"
+
+
+// main is the function that is called when this is run.
+// go run example1.go will build and run this example.
+func main() {
+      fmt.Printf("Hello, World!\n");
+}
+#+END_SRC
+
+Running the Go program.
+
+#+BEGIN_SRC sh +n
+go run src/go/example1.go
+#+END_SRC
+
 ** Weaving
 
 ** Templates
+
+Emacs provides templates of pre-fabricated code blocks.
 
 #+BEGIN_EXAMPLE -n
 C-c '   mode switch to work with sample
@@ -86,7 +116,6 @@ C-c C-v e  evaluate, execute
 #+END_EXAMPLE
 
 * Here is one example to use the MathJax
-
 
 \[
 \begin{equation}

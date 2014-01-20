@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
 <meta name="title" content="Org Mode and Coding"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2014-01-17 Friday"/>
+<meta name="generated" content="2014-01-20 Monday"/>
 <meta name="author" content="Gunter Liszewski"/>
 <meta name="description" content="Org-mode re-visit, and literate, all, in an evening"/>
 <meta name="keywords" content="Literate, Coding, ECMAscript, Emacs, Lisp"/>
@@ -127,7 +127,7 @@ org_html_manager.set("VIEW_BUTTONS", "0");
 org_html_manager.set("MOUSE_HINT", "underline");
 org_html_manager.set("FIXED_TOC", "0");
 org_html_manager.set("TOC", "1");
-org_html_manager.set("VIEW", "1");
+org_html_manager.set("VIEW", "overview");
 org_html_manager.setup();  // activate after the parameters are set
 /*]]>*///-->
 </script>
@@ -307,7 +307,11 @@ for the JavaScript code below.
 </li>
 <li><a href="#sec-2">Org Mode Concepts related with Coding</a>
 <ul>
-<li><a href="#sec-2-1">Tangling</a></li>
+<li><a href="#sec-2-1">Tangling</a>
+<ul>
+<li><a href="#sec-2-1-1">An Example of the Go Language</a></li>
+</ul>
+</li>
 <li><a href="#sec-2-2">Weaving</a></li>
 <li><a href="#sec-2-3">Templates</a></li>
 </ul>
@@ -458,6 +462,49 @@ is a basis to use for building and extending objects.
 <div class="outline-text-3" id="text-2-1">
 
 
+
+</div>
+
+<div id="outline-container-2-1-1" class="outline-4">
+<h4 id="sec-2-1-1">An Example of the Go Language</h4>
+<div class="outline-text-4" id="text-2-1-1">
+
+
+<p>
+Writing a Go language program.
+</p>
+
+
+
+<pre class="example"><span class="linenr"> 2:  </span>// This go languge example illustrates some conventions.
+<span class="linenr"> 3:  </span>// Comments are placed before the line of interest.
+<span class="linenr"> 4:  </span>// The first line starts with the name that is documented here.
+<span class="linenr"> 5:  </span>// The first line is a complete sentence. It has to be able to stand on its own.
+<span class="linenr"> 6:  </span>package main
+<span class="linenr"> 7:  </span>
+<span class="linenr"> 8:  </span>// import lists the packages that are used within.
+<span class="linenr"> 9:  </span>import   "fmt"
+<span class="linenr">10:  </span>
+<span class="linenr">11:  </span>
+<span class="linenr">12:  </span>// main is the function that is called when this is run.
+<span class="linenr">13:  </span>// go run example1.go will build and run this example.
+<span class="linenr">14:  </span>func main() {
+<span class="linenr">15:  </span>      fmt.Printf("Hello, World!\n");
+<span class="linenr">16:  </span>}
+</pre>
+
+
+<p>
+Running the Go program.
+</p>
+
+
+
+<pre class="example"><span class="linenr">17:  </span>go run src/go/example1.go
+</pre>
+
+
+</div>
 </div>
 
 </div>
@@ -476,6 +523,9 @@ is a basis to use for building and extending objects.
 <div class="outline-text-3" id="text-2-3">
 
 
+<p>
+Emacs provides templates of pre-fabricated code blocks.
+</p>
 
 
 
@@ -497,7 +547,6 @@ is a basis to use for building and extending objects.
 
 
 
-
 \[
 \begin{equation}
 x=\sqrt{q^2+3y}
@@ -508,9 +557,9 @@ x=\sqrt{q^2+3y}
 </div>
 
 <div id="postamble">
-<p class="date">Date: 2014-01-17 Friday</p>
+<p class="date">Date: 2014-01-20 Monday</p>
 <p class="author">Author: Gunter Liszewski</p>
-<p class="creator"><a href="http://orgmode.org">Org</a> version 7.9.3f with <a href="http://www.gnu.org/software/emacs/">Emacs</a> version 24</p>
+<p class="creator"><a href="http://orgmode.org">Org</a> version 7.9.3d with <a href="http://www.gnu.org/software/emacs/">Emacs</a> version 24</p>
 <a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
 
 </div>
