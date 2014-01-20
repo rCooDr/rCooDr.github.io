@@ -65,10 +65,14 @@ C-c C-x d  org-mode-insert-drawer
     :KEYSEQUENCES:
 C-c C-x d  org-mode-insert-drawer
     :END:
+*** About the Org Mode Structure
 
+#+BEGIN_SRC emacs-list -n
+M-: (org-element-parse-buffer) RETURN
+#+END_SRC
 ** Shell Example
 
-#+BEGIN_SRC sh -n
+#+BEGIN_SRC sh -n :tangle shell/do.sh
   git status
 #+END_SRC
 * Org Mode Concepts related with Coding
