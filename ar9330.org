@@ -1,0 +1,6 @@
+* COMMENT Ar9330.org -*- mode: org; -*-
+* The Thing
+
+#+begin_src 
+http://www.purinux.org/blog/2012/02/
+#+end_src
